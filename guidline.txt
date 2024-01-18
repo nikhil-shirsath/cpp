@@ -1,0 +1,61 @@
+c++ dev tools 
+
+1.editor 
+    vs code
+2.cpp compiler
+    compiler makes a human redable code to machine readable code means binary code.
+
+main(): this is a special type function which a entry point of the program.
+statement of inside the main function is executed according its sequence.
+statements are execute in top to bottom order.
+
+comments
+========
+
+//single line comment
+/*
+block comment
+
+multiple line comments 
+comments are special symbols which tells compiler that no need to execute the lines
+which are inside the comments. 
+
+comments are specially created for devlopers to understand the meaning or need of that line of code.
+
+
+nesting of the comments makes errors which are very hard to solve.
+
+*/
+Errors and warnings 
+==================
+1 compile time errors
+=> problems in the problems which comes at the time of compilation of the program,
+such as syntax errors .
+
+2 run time errors
+=> this errors occures when the program is successfully compiled and generate execuatable code,
+but it contains some logical errors and we not getting desired output.
+
+3 warnings
+=> program runs but warns that there is an issue and you should solve it otherwise it will be 
+a large problem.
+like 20/0
+
+statement
+=======
+A statement is a basic unit of computation in cpp program.
+Every cpp program is a collection of statements orgnized in a certain way to achive some goal.
+statement ends with semicolumn ; in cpp.
+
+
+input/output
+==========
+std::cerr  => printing errors to the console.
+std::clog  => printing log messages to the console.
+
+cin >> inputs a string until and unless it encounters a space so its cant take a whole string as input ,
+so we uses getline()to take string as a input which contains whitespace.
+
+getline(cin,nameof_variable);
+
+
