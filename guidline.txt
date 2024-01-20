@@ -58,4 +58,25 @@ so we uses getline()to take string as a input which contains whitespace.
 
 getline(cin,nameof_variable);
 
+//cpp execution model 
+sorce code => compiler => binary file => machine execute
+
+program is on hard drive in the binary formate after compilation
+RAm=> runs our program and all the addresses are given on the ram.
+
+1. c++ core language 
+=> this are basic building block of the program. basic needs of the program.
+the basic rules how to create a cpp program. which is foumdation of cpp program.
+
+2.standerd library
+=> this feature provides the basically needed function to make a cpp program.
+like iostream , math . string
+
+3. stl
+=> standerd library its collection of container types 
+
+variables
+=========
+this are the special type of containers which contains similar type of data.
+like int , bool , float, char ,double, void ,auto , long , short.
 
