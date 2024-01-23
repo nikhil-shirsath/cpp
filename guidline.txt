@@ -80,3 +80,24 @@ variables
 this are the special type of containers which contains similar type of data.
 like int , bool , float, char ,double, void ,auto , long , short.
 
+
+opraters
+========
+    operators are nothing but some special signs and symbols that tells the compiler to do some oprations.
+
+    1. Arithmetic opraters
+        1binary +,-,*,/,% 
+        2unery ++ , --
+        
+    2. Relational operators : defines a relation bw 2 operands
+        Return a boolean value.
+        ==
+        !=
+        >
+        <
+        >=
+        <=
+    3.logical operators : used to connect multiple conditions/expressions togather or to reverse logocal value.
+        &&
+        ||
+        !
