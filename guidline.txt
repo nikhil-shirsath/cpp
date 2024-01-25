@@ -101,3 +101,13 @@ opraters
         &&
         ||
         !
+
+Function: 
+======      functions a piece of code that performs a specific taks.
+
+syntax:
+
+return_type function_name(no_of_params along with data types ){
+    //function body 
+}
+=. we pass the values , not variables themself, local variables are created inside the function which are destroyed on returning from the function .
