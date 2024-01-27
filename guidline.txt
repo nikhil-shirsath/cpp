@@ -111,3 +111,12 @@ return_type function_name(no_of_params along with data types ){
     //function body 
 }
 =. we pass the values , not variables themself, local variables are created inside the function which are destroyed on returning from the function .
+
+
+array : its list of variables of similar type of data. in countinues memory allocation. array reserves memory in the RAm using size.
+To access element of the array we uses its indexing. In most of the languages array indexing starts from 0.
+
+{1,2,3,4,5,4,2,3}
+{'c','d','e'}
+
+datatype arrayname [size] ={vals};
