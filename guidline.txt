@@ -122,7 +122,14 @@ To access element of the array we uses its indexing. In most of the languages ar
 datatype arrayname [size] ={vals};
 
 sorting : sorting is a technique to arrange elements in assending or decending order. 
- sorting techniques :
- Selection Sort : Find the minimum element in unsorted array and swap it with element at beginning.
+    sorting techniques :
+    Selection Sort : Find the minimum element in unsorted array and swap it with element at beginning.
 
-Bubble Sort : repetedly swap two adjacent elements if they are in wrong order. in every iteration we got last sorted element.
+    Bubble Sort : repetedly swap two adjacent elements if they are in wrong order. in every iteration we got last sorted element.
+
+    insertion sort : insert an element from unsorted array to its correct position in sorted array.
+                    there will be two arrays in insertion sort.
+
+
+2D arrays : declaration of array inside the array is called 2D array. Its like matrix.
+datatype array[size_row][size_col];
