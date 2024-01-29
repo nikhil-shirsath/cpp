@@ -133,3 +133,12 @@ sorting : sorting is a technique to arrange elements in assending or decending o
 
 2D arrays : declaration of array inside the array is called 2D array. Its like matrix.
 datatype array[size_row][size_col];
+
+charecter Array : an array which is collection of charecters.
+declaration : char array[size +1];//wheres last charecter is '/0' this called null charecter. which tells the word has finished.
+"rahul/0"; this null charecter used for understand seltence end.
+
+char array space as input :
+
+cin.getline(arr,n); //takes sentance as input pass params array_name , size_of_array.
+cin.ignore();//used to clear buffer.
