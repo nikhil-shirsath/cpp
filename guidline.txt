@@ -142,3 +142,25 @@ char array space as input :
 
 cin.getline(arr,n); //takes sentance as input pass params array_name , size_of_array.
 cin.ignore();//used to clear buffer.
+
+Pointers : ponters are special type of variables which stores address of another variables.
+it used * as address of pointer. too insert address of another variable we uses &(address of variable ).
+
+int *prt;   //here we used int as data type of pointer because we want to store a int type of variable's address.
+prt = &a;
+cout<<*pprt<<endl;// this is called derefrencing.
+
+we uses pointer so using pointer we can modify value of that variable indirectly.
+
+In Pointers we can do some arithmetic oprations :
+ ++, -- , + ,-.
+
+ arrays itself are pointers .
+ pointer to pointer 
+ =================
+ *p =&val;
+ **q=&p;
+
+ pass by refrence : when in function we passes address of the valrible insted of its value so it may assess using pointers
+ and modification using pointer wil be happen in real variable is called pass by refrence.
+ 
