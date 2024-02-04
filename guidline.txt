@@ -164,3 +164,21 @@ In Pointers we can do some arithmetic oprations :
  pass by refrence : when in function we passes address of the valrible insted of its value so it may assess using pointers
  and modification using pointer wil be happen in real variable is called pass by refrence.
  
+ string
+ ======
+this are special type of variables which stores collection of charecters inside double quotes.
+no need to know size beforehand.
+performing oprations like concadination and append is easier then char array.
+Terminated using special charecter '\0' called null charecter.
+
+we includes 
+#include<string> // header file which gives diffrent methods.
+
+append()
+=======
+str.append(str1); : this function adds one string at the last of another string and its changes values of origional string.
+
+concadination : adding one string after another string is called concadination.
+name + last; : this doesnt makes any changes inside the origional string.
+    cout<<str1.compare(str)<<endl; // compare function used to compare two strings if both are same then returns 0 ,  if first is greater then 1 ,if  2nd is greater then -1.
+
